@@ -1,10 +1,9 @@
-class HolbertonCourse () {
- constructor(name, length, students) {
-   this.name = name;
-   this.length = length;
-   this.students = students
- }
-}
+class HolbertonCourse {
+  constructor(name, length, students) {
+    this.name = name;
+    this.length = length;
+    this.students = students;
+  }
 
   set name(name) {
     if (typeof name !== 'string') {
